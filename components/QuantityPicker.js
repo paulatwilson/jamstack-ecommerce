@@ -18,7 +18,7 @@ export default function QuantityPicker({
         hover:bg-gray-900 hover:text-white
         focus:outline-none
         "
-        onClick={increment}
+        onClick={() => console.log(increment)}
       >+</button>
       <p className="
         w-10 h-10 pt-2 text-base
